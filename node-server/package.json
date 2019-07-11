@@ -1,0 +1,26 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Sending images to be predicted to TensorFlow Serving",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "keywords": [
+    "tensorflow",
+    "predict",
+    "inception"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimaulana/node-tensorflow-serving.git"
+  },
+  "author": "Rio Maulana <rimaulana@outlook.com> (http://riospace.web.id)",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "aws-xray-sdk": "^2.3.3",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
